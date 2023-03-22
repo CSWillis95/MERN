@@ -4,3 +4,5 @@
 .pk
 .pem
 .pub
+node_modules
+build
