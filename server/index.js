@@ -19,6 +19,10 @@ app.use(cors());
 app.use('/posts', postRoutes)
 //mongodb.com/cloud/atlas
 
+app.get('/', (req, res) => {
+    res.send('Hello to memories API');
+})
+
 const PORT = process.env.PORT || 8080
 const URL = process.env.CONNECTION_URL
 
