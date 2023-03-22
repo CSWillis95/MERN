@@ -1,5 +1,6 @@
 {
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
      }
 }
