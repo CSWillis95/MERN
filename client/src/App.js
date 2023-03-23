@@ -8,11 +8,9 @@ import Form from './components/Form/Form';
 import memories from './images/memories.png';
 import useStyles from './styles'
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import Parse from 'parse/react-native';
 
-//Before using the SDK...
-Parse.setAsyncStorage(AsyncStorage);
 
 
 
