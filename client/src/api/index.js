@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const url = 'http://localhost:8080/posts';
-const url = 'https://ruby-modern-pelican.cyclic.app/posts';
+const url = 'https://mern-memories-project.herokuapp.com/posts';
 
 export const fetchPosts = () => axios.get(url);
 
